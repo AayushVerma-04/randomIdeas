@@ -1,0 +1,28 @@
+.card-container {
+    margin-top: 3rem;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    gap: 2rem;
+    row-gap: 2;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 220px));
+}
+
+.app{
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: rgb(142, 142, 142);
+}
+
+p{
+    margin-right: 50px;
+}
